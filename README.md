@@ -100,8 +100,9 @@ As long as each bit of data in a `<td>` is in the same position as the
 corresponding `<th>`, it will show up in that column.
 
 Go ahead and fill 4 rows in with data before moving on, then check out the
-results on your live page using `httpserver`. If you're working from
-your own repository, push up your work to your remote repo before continuing:
+results on your live page using `httpserver` (make sure to add
+`/market-report.html` to the end of your URL path). If you're working from your
+own repository, push up your work to your remote repo before continuing:
 
 ```
 git add .
