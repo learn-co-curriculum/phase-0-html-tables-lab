@@ -26,7 +26,7 @@ If you want to use the demo repository to follow along:
 
 ### `<tr>`
 
-Before moving on, now that we've got two pages worth of content, if you're working from your own repository:
+If you're working from your own repository, push up your work to your remote repo before continuing:
 
 ```
 git add .
