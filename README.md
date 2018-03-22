@@ -4,15 +4,23 @@
 
 If you already have a personal repository:
 
-* In the terminal, type `git clone https://github.com/<your_username_here>/exceptional-realty`
-* A folder with your previous work will appear in the IDE file tree.
+* Open the Learn IDE, and in the terminal, type
+
+```
+git clone https://github.com/<your_username_here>/exceptional-realty
+cd exceptional-realty
+git fetch --all
+git checkout main-pages
+```
 
 If you want to use the demo repository to follow along:
 
-* In your terminal, type `git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
-* Type `cd exceptional-realy-demo` to navigate into the folder.
-* Type `git fetch html-tables`, the branch for this lesson.
-* Type `git checkout html-tables`, and you're good to go!
+```
+git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
+cd exceptional-realy-demo
+git fetch --all
+git checkout html-tables
+```
 
 **Remember to use `httpserver` to live test your webpage**
 
