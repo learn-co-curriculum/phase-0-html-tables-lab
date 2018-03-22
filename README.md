@@ -36,11 +36,16 @@ add an below that `<h3>` with 'Market Report' inside.
 
 ### `<table> </table>`
 
-To add a table, we first need to write opening and closing `<table>` tags. This tells our browser to interpret anything inside as part of the table.
+To add a table, we first need to write opening and closing `<table>` tags. This
+tells our browser to interpret anything inside as part of the table. Inside
+these tags, we'll use a few other elements to designate the rows, headers and
+cells of the table.
 
 ### `<tr> </tr>`
 
-To make a row inside our table, we use the _table row_ tag, `<tr>`. So if we wanted to have four rows in our table, it would look like this:
+To make a row inside our table, we use the _table row_ tag, `<tr>`. So if we
+wanted to have four rows in our table, including our headers, it would look
+like this:
 
 ```
 <table>
@@ -55,7 +60,10 @@ Any content we want in a row would go inside that particular `<tr>`.
 
 ### `<th> </th>`
 
-Tables generally start with a row of headers to label the column for the rows below. To do this, we use `<th>`, the _table header_ tag. Let's add four headers to this table, 'Address,' 'City,' 'State,' and 'Sales Price,' adding them in in the first table row.
+Tables generally start with a row of headers to label columns for the rows
+below. To do this, we use `<th>`, the _table header_ tag. Let's add four
+headers to this table, 'Address,' 'City,' 'State,' and 'Sales Price,' adding
+them in in the first table row.
 
 ```
 <table>
@@ -73,7 +81,11 @@ Tables generally start with a row of headers to label the column for the rows be
 
 ### `<td> </td>`
 
-In the next row down, we can start putting our information. In this row, instead of using the _table header_ tag, we want to use the _table data_ tag, `<td>`. So, for our table data, we cam just make up some addresses in cities and states, as well as a sales price, and add them in. An example row would look like:
+In the next row down, we can start putting our information. In this row,
+instead of using the _table header_ tag, we want to use the _table data_ tag,
+`<td>`, which will represent one table cell. So, for our table data, we can
+just make up some addresses in cities and states, as well as a sales price, and
+add them in. An example row would look like the following:
 
 ```
 <tr>
@@ -84,13 +96,16 @@ In the next row down, we can start putting our information. In this row, instead
 </tr>
 ```
 
-As long as each bit of data in a `<td>` is in the same position as the corresponding `<th>`, it will show up in that column.
+As long as each bit of data in a `<td>` is in the same position as the
+corresponding `<th>`, it will show up in that column.
 
-Go ahead and fill 4 rows in with data before moving on. If you're working from your own repository, push up your work to your remote repo before continuing:
+Go ahead and fill 4 rows in with data before moving on, then check out the
+results on your live page using `httpserver`. If you're working from
+your own repository, push up your work to your remote repo before continuing:
 
 ```
 git add .
-git commit -m 'started real-estate-listings.html'
+git commit -m 'add listing table to real-estate-listings.html'
 git push
 ```
 
