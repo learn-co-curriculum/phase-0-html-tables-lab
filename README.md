@@ -4,8 +4,6 @@
 
 If you already have a personal repository:
 
-* Open the Learn IDE, and in the terminal, type
-
 ```
 git clone https://github.com/<your_username_here>/exceptional-realty
 cd exceptional-realty
