@@ -1,38 +1,22 @@
 # HTML Tables
 
-### Cloning Down Your Repository
+## Objectives
 
-If you already have a personal repository:
+- Learn the basics of HTML table elements
 
-```
-git clone https://github.com/<your_username_here>/exceptional-realty
-cd exceptional-realty
-git fetch --all
-git checkout main-pages
-```
-
-If you want to use the demo repository to follow along:
-
-```
-git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
-cd exceptional-realty-demo
-git fetch --all
-git checkout html-tables
-```
-
-**Remember to use `httpserver` to live test your webpage**
-
-<iframe width="640" height="480" src="//www.youtube.com/embed/mHeCqIctSRU?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=mHeCqIctSRU">HTML Tables</a></p>
+## Getting Started
 
 In this lesson, we're going to go over creating tables. In our
-`market-report.html` page, go ahead and set up the basic document structure,
-change the title in the `<head>` to say 'Exceptional Realty - Luxury Homes -
-Market Report', and add in our `<h1>` and `<h2>` main page headers. Then, let's
-add an below that `<h3>` with 'Market Report' inside.
+`market-report.html` page, go ahead and set up the basic document structure that
+we see in `real-estate-listings.html`. Change the title in the `<head>` to say
+'Exceptional Realty - Luxury Homes - Market Report' so that our users can know
+what page they are on from the tab heading. Let's also add in our `<h1>` and
+`<h2>` main page headers. Then, let's add an additional `<h3>` header below that
+with 'Market Report' inside.
 
-### `<table> </table>`
+## `<table> </table>`
+
+**Remember to use `httpserver` to live test your webpage**
 
 To add a table, we first need to write opening and closing `<table>` tags. This
 tells our browser to interpret anything inside as part of the table. Inside
@@ -45,7 +29,7 @@ To make a row inside our table, we use the _table row_ tag, `<tr>`. So if we
 wanted to have four rows in our table, including our headers, it would look
 like this:
 
-```
+```HTML
 <table>
   <tr></tr>
   <tr></tr>
@@ -61,9 +45,9 @@ Any content we want in a row would go inside that particular `<tr>`.
 Tables generally start with a row of headers to label columns for the rows
 below. To do this, we use `<th>`, the _table header_ tag. Let's add four
 headers to this table, 'Address,' 'City,' 'State,' and 'Sales Price,' adding
-them in in the first table row.
+them in in the first table row:
 
-```
+```HTML
 <table>
   <tr>
     <th>Address</th>
@@ -85,7 +69,7 @@ instead of using the _table header_ tag, we want to use the _table data_ tag,
 just make up some addresses in cities and states, as well as a sales price, and
 add them in. An example row would look like the following:
 
-```
+```HTML
 <tr>
   <td>2345 Fairview Ln.</td>
   <td>Brooklyn</td>
@@ -99,13 +83,6 @@ corresponding `<th>`, it will show up in that column.
 
 Go ahead and fill 4 rows in with data before moving on, then check out the
 results on your live page using `httpserver` (make sure to add
-`/market-report.html` to the end of your URL path). If you're working from your
-own repository, push up your work to your remote repo before continuing:
-
-```
-git add .
-git commit -m 'add listing table to real-estate-listings.html'
-git push
-```
+`/market-report.html` to the end of your URL path).
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-tables' title='HTML Tables'>HTML Tables</a> on Learn.co and start learning to code for free.</p>
