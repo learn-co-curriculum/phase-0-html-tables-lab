@@ -2,13 +2,17 @@
 
 ## Introduction
 
-In HTML, we can list out related content using unordered and ordered lists.
-Sometimes as web developers, though, we need to display more complex data. For instance,
-a collection of bank transactions, each with a title, value, time,
-category, etc... or listing out the [most popular Instagram
-accounts](https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts).
-For sets of data, the best way to display would be to put the data into a
-_table_.
+In HTML, we can create lists of related content using unordered and ordered
+lists, and they will display line by line in the order we put them in. Sometimes
+as web developers, though, we need to display more complex data. For instance,
+imagine you are working with a financial company and need to display a
+collection of transactions, each with a title, value, time, category, etc... or
+you've been hired by a marketing company and need to display a list of the [most
+popular Instagram
+accounts](https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts),
+each with their username, the owner of the account, the number of followers,
+etc... For sets of data like this, with many separate components, the best way
+to display would be to put the data into a _table_.
 
 Fortunately, HTML has a built in way to display tables! In this lesson, we will
 be reviewing how tables work and how to make our own.
@@ -22,7 +26,8 @@ be reviewing how tables work and how to make our own.
 
 **Remember to use `httpserver` to live test your webpage**
 
-The first thing we need in order to create a table is to write opening and closing `<table>` tags.
+The first thing we need in order to create a table is to write opening and
+closing `<table>` tags.
 
 ```html
 <table>
