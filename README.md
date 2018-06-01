@@ -3,26 +3,27 @@
 ## Problem Statement
 
 In HTML, we can create lists of related content using unordered and ordered
-lists, and they will display line by line in the order we put them in. Sometimes
-as web developers, though, we need to display more complex data. For instance,
-imagine you are working with a financial company and need to display a
-collection of transactions, each with a title, value, time, category, etc... or
-you've been hired by a marketing company and need to display a list of the [most
-popular Instagram
-accounts](https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts),
-each with their username, the owner of the account, the number of followers,
-etc... For sets of data like this, with many separate components, the best way
-to display would be to put the data into a _table_.
+lists, and they will display line by line in the order we put them in.
+Sometimes as web developers, though, we need to display more complex data. For
+instance, imagine you are working with a financial company and need to display
+a collection of transactions, each with a title, value, time, category, etc...
+Or imagine that you've been hired by a marketing company and need to display a
+list of the [most popular Instagram accounts][mpia], each with their username,
+the owner of the account, the number of followers, etc. For sets of data like
+this, with many separate components, the best way to display would be to put
+the data into a _table_.
 
-Fortunately, HTML has a built in way to display tables! In this lesson, we will
-be reviewing how tables work and how to make our own.
+HTML has a built in way to display tables! In this lesson, we will be reviewing
+how tables work and how to make our own.
 
 ## Objectives
 
 1. Learn the basics of HTML table elements
 2. Practice table creation from scratch
 
-## Introduce the Table Tag
+## Learn The Basics Of HTML Table Elements
+
+### Introduce the Table Tag: `<table>`
 
 The first thing we need in order to create a table is to write opening and
 closing `<table>` tags.
@@ -35,12 +36,12 @@ closing `<table>` tags.
 
 This tells our browser to interpret anything inside as part of the table. What
 makes up a table, exactly? A table is defined as having rows, columns, which
-create individual cells, as well as headers to label what each column is for.  
+create individual cells, as well as headers to label what each column is for.
 
 In HTML, we define these table components using individual elements that we nest
 inside our `table` tags.
 
-## Introduce the Table Row Tag
+### Introduce the Table Row Tag: `<tr>`
 
 It's important to note: order really matters when building a table in HTML!
 We're trying to display a two-dimensional table, but HTML is interpreted _line
@@ -65,7 +66,7 @@ headers, setting up the rows it would look like this:
 
 Any content we want in a row would go inside that particular `<tr>`.
 
-## Introduce the Table Header Tag
+### Introduce the Table Header Tag: `<th>`
 
 Tables generally start with a row of headers to label each column, so the first
 `tr` tag we write will be dedicated to these headers.
@@ -73,7 +74,7 @@ Tables generally start with a row of headers to label each column, so the first
 To create headers, we use `<th>`, the _table header_ tag. Let's say we were
 creating a list of guests to a party. The first column might have a header
 called 'Name' for the guest's name, the second, the guest's 'Phone Number', and
-the third, what the guest is 'Bringing' to the party.  
+the third, what the guest is 'Bringing' to the party.
 
 These headers need to go in the first row, so that may look something like:
 
@@ -91,12 +92,12 @@ These headers need to go in the first row, so that may look something like:
 ```
 
 Even though we write the HTML from top down, if we were to spin up `httpserver`
-or directly open `index.html` right now, we would see these headers in bolrd and
-lined up _left to right_.  
+or directly open `index.html` right now, we would see these headers in bold and
+lined up _left to right_.
 
 This first row is almost always the only place where we use the `th` tag.
 
-## Introduce the Table Data Tag
+### Introduce the Table Data Tag: `<td>`
 
 In the second row, we can start putting in our data. Here, instead of using the
 _table header_ tag, we want to use the _table data_ tag, `<td>`, which will
@@ -127,27 +128,27 @@ entire table would look like the following:
   </tr>
   <tr>
     <td>Daniel</td>
-    <td>845-282-4000</td>
+    <td>718-555-1212</td>
     <td>Guacamole</td>
   </tr>
   <tr>
     <td>Rachel</td>
-    <td>718-466-3323</td>
+    <td>718-555-1212</td>
     <td>Chips</td>
   </tr>
   <tr>
     <td>Terrance</td>
-    <td>914-442-3112</td>
+    <td>914-555-1212</td>
     <td>Salsa</td>
   </tr>
 </table>
 ```
 
-If you paste this into `index.html` and take a look at how it is displayed in
+If you paste this into `index.html`, and take a look at how it is displayed in
 browser, you'll see we've got a table with 4 rows and 3 columns! Each "column"
 of content expands to fit the width of the content.
 
-## Reinforce Our Understanding Of HTML Tables Through Creation
+### Reinforce Our Understanding Of HTML Tables Through Creation
 
 Okay, now its time to put what we've learned to the test. For this challenge,
 your task is to recreate a table using the following data:
@@ -176,3 +177,5 @@ out row content separately, but with this, you can represent all sorts of data!
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-tables'
 title='HTML Tables'>HTML Tables</a> on Learn.co and start learning to code for
 free.</p>
+
+[mpia]: https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts
