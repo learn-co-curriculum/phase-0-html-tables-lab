@@ -6,10 +6,10 @@ In HTML, we can create lists of related content using unordered and ordered
 lists, and they will display line by line in the order we put them in.
 Sometimes as web developers, though, we need to display more complex data. For
 instance, imagine you are working with a financial company and need to display
-a collection of transactions, each with a title, value, time, category, etc...
-Or imagine that you've been hired by a marketing company and need to display a
+a collection of transactions, each with a title, value, time, and category.
+Or, imagine that you've been hired by a marketing company and need to display a
 list of the [most popular Instagram accounts][mpia], each with their username,
-the owner of the account, the number of followers, etc. For sets of data like
+the owner of the account, and the number of followers. For sets of data like
 this, with many separate components, the best way to display would be to put
 the data into a _table_.
 
@@ -35,7 +35,7 @@ closing `<table>` tags.
 ```
 
 This tells our browser to interpret anything inside as part of the table. What
-makes up a table, exactly? A table is defined as having rows, columns, which
+makes up a table, exactly? A table has rows and columns, which together
 create individual cells, as well as headers to label what each column is for.
 
 In HTML, we define these table components using individual elements that we nest
@@ -44,7 +44,7 @@ inside our `table` tags.
 ### Introduce the Table Row Tag: `<tr>`
 
 It's important to note: order really matters when building a table in HTML!
-We're trying to display a two-dimensional table, but HTML is interpreted _line
+We're trying to display a two-dimensional table, but browsers interpret HTML _line
 by line_.  For this reason, HTML tables were designed so that there is no tag
 for _columns_, only _rows_.  If you were creating a table with 5 rows and 5
 columns, in designing the table, we would actually have to create 5 _rows_, each
@@ -91,17 +91,17 @@ These headers need to go in the first row, so that may look something like:
 </table>
 ```
 
-Even though we write the HTML from top down, if we were to spin up `httpserver`
-or directly open `index.html` right now, we would see these headers in bold and
-lined up _left to right_.
+Even though we write the HTML from top down, we would see these headers in bold
+and lined up _left to right_. We can spin up `httpserver` or directly open
+`index.html` right now to take a look.
 
 This first row is almost always the only place where we use the `th` tag.
 
 ### Introduce the Table Data Tag: `<td>`
 
-In the second row, we can start putting in our data. Here, instead of using the
-_table header_ tag, we want to use the _table data_ tag, `<td>`, which will
-represent one table cell. So, for our party table, we can add in some names,
+In the second row, we can start putting in our data. Here, we want to use the
+_table data_ tag, `<td>` instead of using the _table header_ tag. The `<td>` tag
+representes one table cell. So, for our party table, we can add in some names,
 phone numbers and items for guests to bring. An example row would look like the
 following:
 
@@ -144,8 +144,8 @@ entire table would look like the following:
 </table>
 ```
 
-If you paste this into `index.html`, and take a look at how it is displayed in
-browser, you'll see we've got a table with 4 rows and 3 columns! Each "column"
+Paste this into `index.html` and take a look at how it is displayed in
+browser. You'll see we've got a table with 4 rows and 3 columns! Each "column"
 of content expands to fit the width of the content.
 
 ### Reinforce Our Understanding Of HTML Tables Through Creation
@@ -159,11 +159,12 @@ The above table shows total population of the 4 biggest cities in the US. We can
 see there are 3 headers, "City", "State", and "2017 estimate", and data for each
 of the four cities.
 
-To complete this task, follow the order of table creation we discussed earlier -
-first you need to create a `table`, and place rows inside, dedicate the first
-row to just headers, and then add in the data in the appropriate order so that
-each city name falls under the "City" column, each state is under "State",
-etc...
+To complete this task, follow the order of table creation we discussed earlier:
+
+1. Create a `table`, and place rows inside,
+2. Dedicate the first row to just headers
+3. Add in the data in the appropriate order so that each city name falls under the
+"City" column, each state is under "State", etc...
 
 Run `learn` to test your work and see your progress. The tests also include the
 exact population numbers, so feel free to copy them from the errors!
@@ -171,7 +172,7 @@ exact population numbers, so feel free to copy them from the errors!
 ## Conclusion
 
 So, with `table`, `tr`, `th` and `td`, we are able to turn line by line HTML
-into table with rows and columns! It may seem counterintuitive at first to list
+into a table with rows and columns! It may seem counterintuitive at first to list
 out row content separately, but with this, you can represent all sorts of data!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-tables'
