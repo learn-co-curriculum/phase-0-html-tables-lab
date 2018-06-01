@@ -1,6 +1,6 @@
 # HTML Tables
 
-## Introduction
+## Problem Statement
 
 In HTML, we can create lists of related content using unordered and ordered
 lists, and they will display line by line in the order we put them in. Sometimes
@@ -19,12 +19,10 @@ be reviewing how tables work and how to make our own.
 
 ## Objectives
 
-- Learn the basics of HTML table elements
-- Practice table creation from scratch
+1. Learn the basics of HTML table elements
+2. Practice table creation from scratch
 
-## `<table> </table>`
-
-**Remember to use `httpserver` to live test your webpage**
+## Introduce the Table Tag
 
 The first thing we need in order to create a table is to write opening and
 closing `<table>` tags.
@@ -42,7 +40,7 @@ create individual cells, as well as headers to label what each column is for.
 In HTML, we define these table components using individual elements that we nest
 inside our `table` tags.
 
-### `<tr> </tr>`
+## Introduce the Table Row Tag
 
 It's important to note: order really matters when building a table in HTML!
 We're trying to display a two-dimensional table, but HTML is interpreted _line
@@ -67,7 +65,7 @@ headers, setting up the rows it would look like this:
 
 Any content we want in a row would go inside that particular `<tr>`.
 
-### `<th> </th>`
+## Introduce the Table Header Tag
 
 Tables generally start with a row of headers to label each column, so the first
 `tr` tag we write will be dedicated to these headers.
@@ -98,7 +96,7 @@ lined up _left to right_.
 
 This first row is almost always the only place where we use the `th` tag.
 
-### `<td> </td>`
+## Introduce the Table Data Tag
 
 In the second row, we can start putting in our data. Here, instead of using the
 _table header_ tag, we want to use the _table data_ tag, `<td>`, which will
@@ -149,7 +147,7 @@ If you paste this into `index.html` and take a look at how it is displayed in
 browser, you'll see we've got a table with 4 rows and 3 columns! Each "column"
 of content expands to fit the width of the content.
 
-### Challenge
+## Reinforce Our Understanding Of HTML Tables Through Creation
 
 Okay, now its time to put what we've learned to the test. For this challenge,
 your task is to recreate a table using the following data:
@@ -169,7 +167,7 @@ etc...
 Run `learn` to test your work and see your progress. The tests also include the
 exact population numbers, so feel free to copy them from the errors!
 
-### Conclusion
+## Conclusion
 
 So, with `table`, `tr`, `th` and `td`, we are able to turn line by line HTML
 into table with rows and columns! It may seem counterintuitive at first to list
