@@ -1,6 +1,11 @@
 # HTML Tables
 
-## Problem Statement
+## Learning Goals
+
+1. Learn the basics of HTML table elements
+2. Practice table creation from scratch
+
+## Introduction
 
 In HTML, we can create lists of related content using unordered and ordered
 lists, and they will display line by line in the order we put them in.
@@ -15,11 +20,6 @@ the data into a _table_.
 
 HTML has a built in way to display tables! In this lesson, we will be reviewing
 how tables work and how to make our own.
-
-## Objectives
-
-1. Learn the basics of HTML table elements
-2. Practice table creation from scratch
 
 ## Learn The Basics Of HTML Table Elements
 
