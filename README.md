@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-1. Learn the basics of HTML table elements
-2. Practice table creation from scratch
+1. Recognize basic HTML table elements
+2. Create HTML tables
 
 ## Introduction
 
@@ -21,9 +21,9 @@ the data into a _table_.
 HTML has a built in way to display tables! In this lesson, we will be reviewing
 how tables work and how to make our own.
 
-## Learn The Basics Of HTML Table Elements
+## Recognize Basic HTML Table Elements
 
-### Introduce the Table Tag: `<table>`
+### The Table Tag: `<table>`
 
 The first thing we need in order to create a table is to write opening and
 closing `<table>` tags.
@@ -41,7 +41,7 @@ create individual cells, as well as headers to label what each column is for.
 In HTML, we define these table components using individual elements that we nest
 inside our `table` tags.
 
-### Introduce the Table Row Tag: `<tr>`
+### The Table Row Tag: `<tr>`
 
 It's important to note: order really matters when building a table in HTML!
 We're trying to display a two-dimensional table, but browsers interpret HTML _line
@@ -66,7 +66,7 @@ headers, setting up the rows it would look like this:
 
 Any content we want in a row would go inside that particular `<tr>`.
 
-### Introduce the Table Header Tag: `<th>`
+### The Table Header Tag: `<th>`
 
 Tables generally start with a row of headers to label each column, so the first
 `tr` tag we write will be dedicated to these headers.
@@ -97,7 +97,7 @@ and lined up _left to right_. We can spin up `httpserver` or directly open
 
 This first row is almost always the only place where we use the `th` tag.
 
-### Introduce the Table Data Tag: `<td>`
+### The Table Data Tag: `<td>`
 
 In the second row, we can start putting in our data. Here, we want to use the
 _table data_ tag, `<td>` instead of using the _table header_ tag. The `<td>` tag
@@ -148,7 +148,7 @@ Paste this into `index.html` and take a look at how it is displayed in
 browser. You'll see we've got a table with 4 rows and 3 columns! Each "column"
 of content expands to fit the width of the content.
 
-### Reinforce Our Understanding Of HTML Tables Through Creation
+## Create HTML Tables
 
 Okay, now its time to put what we've learned to the test. For this challenge,
 your task is to recreate a table using the following data:
