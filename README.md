@@ -101,7 +101,7 @@ This first row is almost always the only place where we use the `th` tag.
 
 In the second row, we can start putting in our data. Here, we want to use the
 _table data_ tag, `<td>` instead of using the _table header_ tag. The `<td>` tag
-representes one table cell. So, for our party table, we can add in some names,
+represents one table cell. So, for our party table, we can add in some names,
 phone numbers and items for guests to bring. An example row would look like the
 following:
 
