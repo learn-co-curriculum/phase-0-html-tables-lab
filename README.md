@@ -166,7 +166,7 @@ To complete this task, follow the order of table creation we discussed earlier:
 3. Add in the data in the appropriate order so that each city name falls under the
 "City" column, each state is under "State", etc...
 
-Run `learn` to test your work and see your progress. The tests also include the
+Run `learn test` to test your work and see your progress. The tests also include the
 exact population numbers, so feel free to copy them from the errors!
 
 ## Conclusion
