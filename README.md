@@ -175,10 +175,6 @@ So, with `table`, `tr`, `th` and `td`, we are able to turn line by line HTML
 into a table with rows and columns! It may seem counterintuitive at first to list
 out row content separately, but with this, you can represent all sorts of data!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-tables'
-title='HTML Tables'>HTML Tables</a> on Learn.co and start learning to code for
-free.</p>
-
 [mpia]: https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts
 
 
