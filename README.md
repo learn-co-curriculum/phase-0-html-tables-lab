@@ -92,8 +92,10 @@ These headers need to go in the first row, so that may look something like:
 ```
 
 Even though we write the HTML from top down, we would see these headers in bold
-and lined up _left to right_. We can spin up `httpserver` or directly open
-`index.html` right now to take a look.
+and lined up _left to right_. We can open up `index.html` right now to take a
+look.
+
+> **Note:** If you are using the Learn in-browser IDE, run `httpserver`
 
 This first row is almost always the only place where we use the `th` tag.
 
