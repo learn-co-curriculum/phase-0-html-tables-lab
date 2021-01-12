@@ -21,6 +21,12 @@ the data into a _table_.
 HTML has a built in way to display tables! In this lesson, we will be reviewing
 how tables work and how to make our own.
 
+## Getting Started
+
+Fork and clone this lesson into your local environment. Navigate into its directory
+in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
+run `bundle` to install the lab's dependencies.
+
 ## Recognize Basic HTML Table Elements
 
 ### The Table Tag: `<table>`
@@ -93,7 +99,7 @@ These headers need to go in the first row, so that may look something like:
 
 Even though we write the HTML from top down, we would see these headers in bold
 and lined up _left to right_. We can open up `index.html` right now to take a
-look (if you are using the Learn in-browser IDE, run `httpserver`).
+look to confirm.
 
 This first row is almost always the only place where we use the `th` tag.
 
@@ -166,7 +172,7 @@ To complete this task, follow the order of table creation we discussed earlier:
 3. Add in the data in the appropriate order so that each city name falls under the
 "City" column, each state is under "State", etc...
 
-Run `learn test` to test your work and see your progress. The tests also include the
+Run `rspec` to test your work and see your progress. The tests also include the
 exact population numbers, so feel free to copy them from the errors!
 
 ## Conclusion
