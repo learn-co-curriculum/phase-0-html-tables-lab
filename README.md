@@ -175,6 +175,22 @@ To complete this task, follow the order of table creation we discussed earlier:
 Run `rspec` to test your work and see your progress. The tests also include the
 exact population numbers, so feel free to copy them from the errors!
 
+## Saving Your Work Remotely
+
+Currently, the work you've done on this assignmnent is only on your local
+machine. To preserve work on your GitHub fork, you will need to stage the
+changes you've made, commit them, and push the commit up to GitHub. Use
+the following commands to do this:
+
+```sh
+git add .
+git commit -m "Completed assignment"
+git push
+```
+
+If you visit your fork on GitHub, you should now see that _you've_ made the most
+recent commit, and your solution will be present in the files.
+
 ## Conclusion
 
 So, with `table`, `tr`, `th` and `td`, we are able to turn line by line HTML
