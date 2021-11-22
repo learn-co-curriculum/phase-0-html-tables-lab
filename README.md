@@ -25,7 +25,7 @@ how tables work and how to make our own.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `bundle` to install the lab's dependencies.
+Code. Finally, run `npm install` to install the lab's dependencies.
 
 ## Recognize Basic HTML Table Elements
 
@@ -39,8 +39,8 @@ closing `<table>` tags.
 ```
 
 This tells our browser to interpret anything inside as part of the table. What
-makes up a table, exactly? A table has rows and columns, which together
-create individual cells, as well as headers to label what each column is for.
+makes up a table, exactly? A table has rows and columns, which together create
+individual cells, as well as headers to label what each column is for.
 
 In HTML, we define these table components using individual elements that we nest
 inside our `table` tags.
@@ -48,9 +48,9 @@ inside our `table` tags.
 ### The Table Row Tag: `<tr>`
 
 It's important to note: order really matters when building a table in HTML!
-We're trying to display a two-dimensional table, but browsers interpret HTML _line
-by line_. For this reason, HTML tables were designed so that there is no tag
-for _columns_, only _rows_. If you were creating a table with 5 rows and 5
+We're trying to display a two-dimensional table, but browsers interpret HTML
+_line by line_. For this reason, HTML tables were designed so that there is no
+tag for _columns_, only _rows_. If you were creating a table with 5 rows and 5
 columns, in designing the table, we would actually have to create 5 _rows_, each
 with 5 individual _cells_ inside. When displayed, the cells in each row will
 line up to _look_ like columns.
@@ -176,8 +176,8 @@ To complete this task, follow the order of table creation we discussed earlier:
 3. Add in the data in the appropriate order so that each city name falls under
    the "City" column, each state is under "State", etc...
 
-Run `rspec` to test your work and see your progress. The tests also include the
-exact population numbers, so feel free to copy them from the errors!
+Run `npm test` to test your work and see your progress. The tests also include
+the exact population numbers, so feel free to copy them from the errors!
 
 ## Saving Your Work Remotely
 
@@ -197,9 +197,8 @@ recent commit, and your solution will be present in the files.
 
 ## Conclusion
 
-So, with `table`, `tr`, `th` and `td`, we are able to turn line by line HTML
-into a table with rows and columns! It may seem counterintuitive at first to
-list out row content separately, but with this, you can represent all sorts of
-data!
+With `table`, `tr`, `th` and `td`, we are able to turn line by line HTML into a
+table with rows and columns! It may seem counterintuitive at first to list out
+row content separately, but with this, you can represent all sorts of data!
 
 [mpia]: https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts
