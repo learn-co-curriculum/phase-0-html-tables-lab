@@ -160,7 +160,7 @@ expands to fit the width of the content. It should look something like this:
 
 ## Create HTML Tables
 
-Okay, now its time to put what we've learned to the test. For this challenge,
+Okay, now it's time to put what we've learned to the test. For this challenge,
 your task is to recreate a table using the following data:
 
 ![cities by population](https://s3.amazonaws.com/ironboard-learn/us_cities_by_population.png)
