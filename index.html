@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css">
     <title>HTML Tables</title>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
   </head>
   <body>
-    <!-- Write your HTML here -->
+    <table>
+      <tr>
+        <th>City</th>
+        <th><cite><State 6=""></State></cite>State</th>
+        <th>2017 estimate</th>
+      </tr>
+      <tr>
+        <td>New York</td>
+        <td>New York</td>
+        <td>8,622,698</td>
+      </tr>
+      <tr>
+        <td>Los Angeles</td>
+        <td>California</td>
+        <td>3,999,759</td>
+      </tr>
+      <tr>
+        <td>Chicago</td>
+        <td>Illinois</td>
+        <td>2,716,450</td>
+      </tr>
+      <td>Houston</td>
+        <td>Texas</td>
+        <td>2,312,717</td>
+    </table>
   </body>
 </html>
