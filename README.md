@@ -23,7 +23,7 @@ how tables work and how to make our own.
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its
+**Fork and clone** this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
@@ -176,7 +176,7 @@ To complete this task, follow the order of table creation we discussed earlier:
 3. Add in the data in the appropriate order so that each city name falls under
    the "City" column, each state is under "State", etc...
 
-Run `learn test` to test your work and see your progress. The tests also include
+Run `npm test` to test your work and see your progress. The tests also include
 the exact population numbers, so feel free to copy them from the errors!
 
 ## Conclusion
