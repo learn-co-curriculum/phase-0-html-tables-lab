@@ -1,0 +1,34 @@
+*{
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+th , td{
+    border: 1px solid rgb(141, 136, 136);
+    margin: 0px;
+    padding: 30px;
+}
+th{
+    background-color: rgb(233, 229, 229);
+}
+.city{
+    background-color: rgb(167, 221, 247);
+    color: rgb(16, 19, 175);
+    font-style: italic;
+}
+.estimate{
+    text-align: end;
+}
+.state{
+    color: rgb(16, 19, 175);
+}
+img{
+    width: 45px;
+    height: 23px;
+    margin-right: 5px;
+}
