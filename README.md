@@ -1,3 +1,4 @@
+page link: https://afyaakt.github.io/phase-0-html-tables-lab/
 # HTML Tables
 
 ## Learning Goals
